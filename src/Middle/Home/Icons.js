@@ -17,7 +17,7 @@ render()
 {
 return(    
 
-<div className="row " style={{ backgroundImage: `url(require("./Iconimages/backgroundimage.jpg"))` ,opacity:"0.8", height:"400px" }}>
+<div className="row " style={{ backgroundImage: "url("+backgroundimage+")" , height:"400px" }}>
   <div className="col-6 col-sm-4 mt-4" >
   <div className="container">
   <img className="image ml-5" src={About}  alt="About" />
