@@ -1,9 +1,15 @@
 
     .image {
-        border-radius: 50%;
+        border-radius:25px;
         margin: auto;
         margin-left: auto;
         margin-right: auto;
-        height:100px;
-        width:80px;
+        height:180px;
+        width:150px;
+        opacity:0.9;
+        border-width:5px;
+        border-style: solid;
+        padding: 5px; 
+       
+      
     }

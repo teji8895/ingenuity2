@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
-import about from './Iconimages/About.jpg'
+
 
 
 class Carousel extends Component
@@ -19,7 +19,7 @@ render()
 </ol>
 <div className="carousel-inner">
   <div className="carousel-item active">
-    <img style={{height:"380px"}} src={about} className="d-block w-100"  alt="First slide"/>
+    <img style={{height:"380px"}} src={logo} className="d-block w-100"  alt="First slide"/>
   </div>
   <div className="carousel-item">
     <img  style={{height:"380px"}} src={logo} className="d-block w-100" alt="Second slide"/>
