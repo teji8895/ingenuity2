@@ -18,7 +18,7 @@ render()
 {
 return( 
 
-<div style={{ backgroundImage:"url("+light+")",backgroundBlendMode:'lighten',   height:"500px"}}>
+<div style={{ backgroundImage:"url("+light+")",   height:"600px"}}>
 
 
 
@@ -26,13 +26,12 @@ return(
   <div className="col-6 col-sm-4 mt-4" >
   <div className="container">
   <img className="image ml-5 " src={About}  alt="About" />
-
   <div className="overlay">
   <div className="text">About Company</div>
   </div>
+</div>
+ </div>
 
-  </div>
-  </div> 
   
 
   <div className="col-6 col-sm-4 mt-4">
@@ -45,10 +44,13 @@ return(
   </div>
 
   <div className="col-6 col-sm-4 mt-4">
+  <div className="container">
   <img  className="image ml-5" src={Safety}  alt="Safety"   />
   <div className="overlay">
     <div className="text">Process Safety Consultancy Services</div>
-  </div></div>
+    </div>
+  </div>
+  </div>
   </div>
   
 
@@ -56,24 +58,30 @@ return(
   <div className="row mt-3">
 
   <div className="col-6 col-sm-4">
+  <div className="container">
   <img className="image ml-5 mt-3" src={Softwares}  alt="softwares"   />
   <div className="overlay">
     <div className="text">Softwares</div>
+    </div>
   </div>
   </div>
 
   <div className="col-6 col-sm-4">
+  <div className="container">
   <img  className="image ml-5 mt-3" src={Training}  alt="Training"   />
   <div className="overlay">
     <div className="text">Training Services</div>
+    </div>
   </div>
   </div>
 
-
+      
   <div className="col-6 col-sm-4">
+  <div className="container">
   <img className="image ml-5 mt-3" src={BBS}  alt="BBS"   />
   <div className="overlay">
     <div className="text">Behaviorial Based Safety</div>
+    </div>
   </div>
   </div>
 </div>
@@ -82,4 +90,6 @@ return(
 );
 }
 }
+
+
 export default Icons;

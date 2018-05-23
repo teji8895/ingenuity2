@@ -25,7 +25,7 @@ render()
     <img  style={{height:"380px"}} src={logo} className="d-block w-100" alt="Second slide"/>
   </div>
   <div className="carousel-item">
-    <img  style={{height:"380px"}} src={logo} lassName="d-block w-100" alt="Third slide"/>
+    <img  style={{height:"380px"}} src={logo} className="d-block w-100" alt="Third slide"/>
   </div>
 </div>
 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

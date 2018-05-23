@@ -1,17 +1,32 @@
 .overlay {
+  display: block;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
+   top:0;
+   bottom:0;
+   right:0;
+    left:63px;
+     height: 200px;
+    width: 200px;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    border-radius:25px;
+   background-color: rgb(6, 35, 44);
+   
   }
-  .container:hover.overlay {
+
+  .container:hover .overlay{
     opacity: 1;
+  }
+  .row
+  {
+    margin-top: 30px;
+  
+  }
+
+  .container{
+    position:relative;
+    width:70%;
+    border-radius:25px;
   }
 
   .text {
@@ -24,3 +39,5 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  
